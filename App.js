@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
     reloadButton: {
         position: 'absolute',
         backgroundColor: '#2cc185',
+        bottom: '22%',
         zIndex: 100,
         padding: 10,
     },

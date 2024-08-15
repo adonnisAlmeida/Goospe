@@ -3,6 +3,7 @@
     "name": "Goospe",
     "slug": "Goospe",
     "version": "1.0.0",
+    "owner": "adonnis.almeida",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.adonnis.almeida.Goospe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "71ff5405-96ca-4452-b872-c0575691c656"
+      }
     }
   }
 }
